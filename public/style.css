@@ -1,0 +1,175 @@
+body {	
+    background-color: #636661;
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+div.headerbox {
+	background-image: url(header.png);
+	height: 435px;
+	width: 860px;
+	text-align:center;
+	font-style: oblique;
+}
+
+div.header {
+	font-size: 60px;
+   	color: white;
+   	letter-spacing: 3px;
+	width: 100%;
+	padding-top: 155px;
+}
+
+div.dateText {
+   	color: white;
+   	letter-spacing: 3px;
+	width: 100%;
+}
+
+div.taglineText {
+	font-size: 30px;
+   	color: #636661;
+   	letter-spacing: 0px;
+	width: 100%;
+	padding-top: 155px;
+}
+
+div.WhiteBox {
+	background-color: #F7F7F7;
+	height: 400px;
+	width: 860px;
+	padding-top: 30px;
+	//background-color: blue;
+}
+
+div.NavigationBar {
+	float: left;
+	background-color: #F7F7F7;
+	//margin-top: 0px;
+	//width: 170px;
+	//position: relative;
+	//height: 400px;
+	//padding: 1px;
+	//padding-bottom: 30px;
+}
+
+div.NavigationMenu {
+	border-bottom-color: transparent;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-collapse: separate;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	color: #636661;
+	cursor: pointer;
+	display: block;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: 21px;
+	line-height: 21px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 12px;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-top: 12px;
+	text-align: right;
+	text-decoration: none;
+	width: 160px;
+	//Margin: 10px;
+	//background: #eee;
+	//color: #63666;
+	//padding: 10px;
+	//display: block;
+	//width: 150px;
+	//text-align: right;
+}
+div.NavigationMenu:hover {
+	background-color: #EAEAE9;	
+}
+
+div.Selected {
+	background-color: #EAEAE9;	
+}
+
+div.image {
+	padding-left: 350px;
+}
+
+div.ourstory {
+	float:right;
+	padding-right: 60px;
+}
+
+div.text {
+	color: #636661;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-left: 200px;
+	margin-right: 50px;
+	margin-top: 0px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: left;
+}
+
+div.BrideGroomImage {
+	padding-left: 550px;
+	padding-top: 50px;
+}
+div.bridegroomtext {
+	color: #636661;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 15px;
+	width: 325px;
+	padding-left: 30px;
+	float: left;
+}
+div.familyimage {
+	float:left;
+	padding-left: 30px;
+}
+div.familytext {
+	padding-right: 20px;
+	text-align: center;
+}
+a {
+	color: #636661;
+	text-decoration: none;
+}
+
+a.footer {
+	color: #EAEAE9;
+	text-decoration: underline;
+}
+
+div.receptionimage{
+	padding-left: 300px;
+}
+div.receptiontext {
+	text-align: center;
+	color: #EAEAE9;
+}
+
+div.contact {
+	text-align:center;
+	text-decoration: underline;
+}
+#footer {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-top: 3px;
+}
