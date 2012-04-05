@@ -1,7 +1,7 @@
 body {	
     background-color: #636661;
-	padding-left: 50px;
-	padding-bottom: 40px;
+	//padding-left: 50px;
+	//padding-bottom: 40px;
 }
 
 div.headerbox {
@@ -10,6 +10,8 @@ div.headerbox {
 	width: 860px;
 	text-align:center;
 	font-style: oblique;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.header {
@@ -36,15 +38,21 @@ div.taglineText {
 
 div.WhiteBox {
 	background-color: #F7F7F7;
-	height: 400px;
+	height: 720px;
 	width: 860px;
 	padding-top: 30px;
 	//background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
+
 
 div.NavigationBar {
 	float: left;
 	background-color: #F7F7F7;
+    margin-left: auto;
+    margin-right: auto;
 	//margin-top: 0px;
 	//width: 170px;
 	//position: relative;
@@ -173,4 +181,16 @@ div.contact {
 	letter-spacing: 2px;
 	padding-top: 3px;
 	width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.registryimage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.registrytext {
+text-align: center;
+	color: #EAEAE9;
 }
