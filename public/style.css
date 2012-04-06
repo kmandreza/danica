@@ -38,16 +38,80 @@ div.taglineText {
 
 div.WhiteBox {
 	background-color: #F7F7F7;
-	height: 900px;
+	height: 430px;
 	width: 860px;
 	padding-top: 30px;
 	//background-color: blue;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
+div.WelcomeWhiteBox {
+	background-color: #F7F7F7;
+	height: 730px;
+	width: 860px;
+	padding-top: 30px;
+	//background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.OurStoryWhiteBox {
+	background-color: #F7F7F7;
+	height: 430px;
+	width: 860px;
+	padding-top: 30px;
+	//background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+div.BridalPartyWhiteBox {
+	background-color: #F7F7F7;
+	height: 430px;
+	width: 860px;
+	padding-top: 30px;
+	//background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.WeddingDayWhiteBox {
+	background-color: #F7F7F7;
+	height: 1260px;
+	width: 860px;
+	padding-top: 30px;
+	//background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.TravelWhiteBox {
+	background-color: #F7F7F7;
+	height: 430px;
+	width: 860px;
+	padding-top: 30px;
+	//background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.AccommodationsWhiteBox {
+	background-color: #F7F7F7;
+	height: 570px;
+	width: 860px;
+	padding-top: 30px;
+	//background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.RegistryWhiteBox {
+	background-color: #F7F7F7;
+	height: 800px;
+	width: 860px;
+	padding-top: 30px;
+	//background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
 div.NavigationBar {
 	float: left;
 	background-color: #F7F7F7;
@@ -167,9 +231,16 @@ div.receptionimage{
 }
 div.receptiontext {
 	text-align: center;
-	color: #EAEAE9;
+	//color: #EAEAE9;
+	color: #636661;
 }
 
+div.WeddingDaytext{
+	color: #636661;
+	padding-left:220px;
+	padding-right: 40px;
+	
+}
 div.contact {
 	text-align:center;
 	text-decoration: underline;
@@ -186,11 +257,16 @@ div.contact {
 }
 
 div.registryimage {
+	padding-left: 170px;
     margin-left: auto;
     margin-right: auto;
 }
 
 div.registrytext {
-text-align: center;
-	color: #EAEAE9;
+padding-left: 25px;
+	color: #636661;
+}
+
+ul{
+    list-style-type: none;
 }
