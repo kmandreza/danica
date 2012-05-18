@@ -1,0 +1,27 @@
+<h1>Danica and Joe's Wedding Guest Book</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Comment</th>
+    <th>Created</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @guestbook_entries.each do |guestbook_entry| %>
+  <tr>
+    <td><%= guestbook_entry.name %></td>
+    <td><%= guestbook_entry.comment %></td>
+    <td><%= guestbook_entry.created %></td>
+    <td><%= link_to 'Show', guestbook_entry %></td>
+    <td><%= link_to 'Edit', edit_guestbook_entry_path(guestbook_entry) %></td>
+    <td><%= link_to 'Delete', guestbook_entry, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Guestbook entry', new_guestbook_entry_path %>
